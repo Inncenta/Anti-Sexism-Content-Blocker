@@ -1,0 +1,51 @@
+/* Anti-Sexism Content Blocker - Basic Styling */
+.protection-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  z-index: 9999;
+  display: none;
+}
+
+.protection-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.protection-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.protection-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.protection-text {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.anti-sexism-banner {
+  background: linear-gradient(45deg, #ff6b6b, #ffa726);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+}

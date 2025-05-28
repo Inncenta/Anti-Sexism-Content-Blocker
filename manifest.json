@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Anti-Sexism Content Blocker",
+  "version": "1.0",
+  "description": "A content blocker extension to protect users from sexist and discriminatory content online",
+  "permissions": [],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
